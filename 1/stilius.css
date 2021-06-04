@@ -1,0 +1,50 @@
+body {
+    display: inline-block;
+    width: 100vh;
+    height: 587px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(344deg, rgba(131,0,255,1) 23%, rgba(0,212,255,1) 94%, rgba(0,212,255,1) 97%);
+}
+main {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -100px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h3 {
+    font-size: 60px;
+    color: red;
+    padding-bottom: ;
+}
+.sign {
+    text-decoration: none;
+    text-align: none;
+}
+.button {
+    color: white;
+    /* border: orange solid 5px; */
+    padding-top: 190px;
+    border-radius: 100px;
+    background: linear-gradient(344deg, rgba(255,191,0,1) 25%, rgba(255,251,0,1) 97%);
+    box-shadow: 10px 8px 8px 0 #0005;
+    cursor: pointer;
+}
+.nuclear-logo {
+    padding-top: 30px;
+    width: 200px;
+    margin-bottom: 18px;
+}
+.button:hover {
+    color: red;
+    box-shadow: 20px 11px 8px 0 red;
+}
+.nuclear-logo:hover {
+    src: url('./danger-red.png');
+}
