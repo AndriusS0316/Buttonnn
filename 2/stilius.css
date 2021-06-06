@@ -1,0 +1,26 @@
+body {
+    background-color: #7dbccd;
+    /* width: 100%;
+    height: 100vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(344deg, rgba(131,0,255,1) 23%, rgba(0,212,255,1) 94%, rgba(0,212,255,1) 97%);
+}
+.structure {
+    height: 100vh;
+    display: inline-block;
+    text-align: center;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    border: red 5px solid;
+    margin-bottom: 50px;
+}
+main {
+    display: inline-block;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
