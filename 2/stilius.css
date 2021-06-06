@@ -24,6 +24,15 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.button {
+    color: white;
+    /* border: orange solid 5px; */
+    padding-top: 190px;
+    border-radius: 100px;
+    background: linear-gradient(344deg, rgba(255,191,0,1) 25%, rgba(255,251,0,1) 97%);
+    box-shadow: 10px 8px 8px 0 #0005;
+    cursor: pointer;
+}
 .button:hover {
     color: red;
     box-shadow: 20px 11px 8px 0 red;
