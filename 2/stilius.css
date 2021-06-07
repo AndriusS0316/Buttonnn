@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background: linear-gradient(344deg, rgba(131,0,255,1) 23%, rgba(0,212,255,1) 94%, rgba(0,212,255,1) 97%);
+    overflow: auto;
 }
 .structure {
     height: 100vh;
@@ -23,4 +24,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.button {
+    width: 30%;
 }
